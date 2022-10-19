@@ -2,12 +2,17 @@
   Create function func with "a " argument
   Return the number of odd numbers up to A.
 */
-String func(int a){
-  if(a.isOdd){
-    return 'A';
+int func(int a){
+  int i=0;
+  int s=0;
+  while(i<=a){
+  if(i % 2 == 1){
+    s++;
   }
-  return 'false';
+  i+=1;
+  
+}  return s;
 }
 void main(){
-  print(func(5));
+  print(func(9));
 }
