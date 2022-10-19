@@ -16,7 +16,7 @@ int func(int a){
 
   i+=1;
   
-}  return s-r;
+}  return r-s;
 }
 void main(){
   print(func(9));
